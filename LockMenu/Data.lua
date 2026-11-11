@@ -49,10 +49,12 @@ ns.Data = {
 	-- Spells to add at the end of the menu, by exact name. (The options window has a box for this too.)
 	extra = {},
 
-	-- Stones and healthstones you carry are shown as buttons that use them (the best one you have), highest first.
+	-- Stones, healthstones and the sleeping bag you carry are shown as buttons that use them (the best one you have), highest first.
 	useItems = {
 		{ label = "Healthstone", ids = { 22105, 22104, 22103, 19013, 19012, 9421, 19011, 19010, 5510, 19009, 19008, 5509, 19007, 19006, 5511, 19005, 19004, 5512 } },
 		{ label = "Soulstone", ids = { 22116, 16896, 16895, 16893, 16892, 5232 } },
+		-- The Cozy Sleeping Bag (rested XP, from the Cozy Sleeping Bag quest chain; the same number Naowh uses). His ask, Nov 11.
+		{ label = "Sleeping Bag", ids = { 211527 } },
 	},
 
 	shardItem = 6265,

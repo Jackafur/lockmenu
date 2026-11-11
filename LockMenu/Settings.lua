@@ -6,7 +6,7 @@ ns.rows = {}
 for _, g in ipairs(Data.spellGroups) do
 	ns.rows[#ns.rows + 1] = { key = g.label, text = g.text or g.label, default = g.default ~= false }
 end
-ns.rows[#ns.rows + 1] = { key = "Use", text = "The healthstone and soulstone you carry", default = true }
+ns.rows[#ns.rows + 1] = { key = "Use", text = "The healthstone, soulstone and sleeping bag you carry", default = true }
 ns.rows[#ns.rows + 1] = { key = "Extra", text = "Extra spells (from the box below)", default = true }
 
 local function defaultMask()

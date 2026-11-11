@@ -2,7 +2,7 @@
 ## Title: LockMenu
 ## Notes: A warlock menu on one key: demons, buffs, stones and utility spells you know, plus your healthstone and soulstone.
 ## Author: Jackafur
-## Version: 0.3.2
+## Version: 0.4.0
 ## IconTexture: Interface\AddOns\LockMenu\icon.tga
 
 Data.lua

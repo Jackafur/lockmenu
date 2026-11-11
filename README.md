@@ -2,13 +2,13 @@
 
 <img src="assets/icon-512.png" alt="LockMenu icon" width="128" align="right">
 
-A warlock menu on one key for the WoW Forever beta (Classic+). Press a key and a menu opens at your mouse with the spells you would otherwise need keybinds for: your demons, buffs, stones and utility spells, plus the healthstone and soulstone you are carrying. Click one to cast it.
+A warlock menu on one key for the WoW Forever beta (Classic+). Press a key and a menu opens at your mouse with the spells you would otherwise need keybinds for: your demons, buffs, stones and utility spells, plus the healthstone, soulstone and sleeping bag you are carrying. Click one to cast it.
 
 It reads your spellbook and only shows spells you know, so it works with the beta's own warlock spell list. There is no Felguard, Fel Armor or Ritual of Souls on the beta, but Incubus is there, and a spell the beta lacks is simply not shown.
 
 ## Install
 
-1. Download the zip from the [releases page](https://github.com/Jackafur/lockmenu/releases) and extract the `LockMenu` folder into `World of Warcraft\_classic_beta_\Interface\AddOns`.
+1. Download the zip from the [releases page](https://github.com/Jackafur/lockmenu/releases) and extract the `LockMenu` folder into `World of Warcraft\_forever_\Interface\AddOns`.
 2. Restart the game once. A new addon and its key binding need a full restart.
 3. Esc, Options, Keybindings, AddOns, LockMenu: bind "Show the warlock menu" to a key.
 
@@ -38,7 +38,7 @@ Settings are kept in an account-wide macro named "LockMenu data", because the Fo
 
 ## Change what is shown
 
-Edit `Data.lua`. The rows are matched by name against your spellbook, curses and banes are picked up by pattern, `extra` adds spells by exact name, and `useItems` lists the healthstone and soulstone item IDs.
+Edit `Data.lua`. The rows are matched by name against your spellbook, curses and banes are picked up by pattern, `extra` adds spells by exact name, and `useItems` lists the healthstone, soulstone and sleeping bag item IDs.
 
 ## Limits
 
